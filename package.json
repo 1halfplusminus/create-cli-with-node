@@ -1,0 +1,34 @@
+{
+  "name": "@1halfplusminus/create-cli-with-node",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap my newx projects",
+  "main": "index.js",
+  "bin": {
+    "@1halfplusminus/create-cli-with-node": "./bin/create-project.sh",
+    "create-cli-with-node": "./bin/create-project.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.1",
+    "esm": "^3.2.25",
+    "execa": "^5.0.0",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
+}
